@@ -31,5 +31,5 @@ jobs:
     - name: install surge
       run: npm install --gloabblay surge
     - name: deploying surge
-      run: surge./asimwork01.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge --V./asimwork01.surge.sh --token ${{ secrets.SURGE_TOKEN }}
         
