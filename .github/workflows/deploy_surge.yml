@@ -35,7 +35,7 @@ jobs:
       with:
           domain: 'bbba.surge.sh'
           project: '.'
-          login: "muhammadasimwork786@gmail.com"
-          token: "2db152218aeda672e0f81fae602daf1e"
+          login: ${{secrets.SURGE_LOGIN}}
+          token: ${{secrets.SURGE_TOKEN}}
     
         
